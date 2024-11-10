@@ -32,8 +32,9 @@ bash
 javac HelloWorld.java
 java HelloWorld
 You should see the message "Hello World from Java, Lesly Salas SI08!" in the console.
-
-Docker Hub Launch Manual
+```
+### Docker Hub Launch Manual
+```bash
 1. Download the Image
 To download the image from Docker Hub, run:
 
@@ -45,9 +46,10 @@ Once the image is downloaded, run the container:
 bash
 docker run lssalas/javals:latest
 This will start the container with the Java program, and you should see the message in the console.
-
-Notes
+```
+## Notes
 Make sure Docker is running.
 If you have problems running the container, check that Docker is correctly installed and configured on your system.
-Credits
+
+## Credits
 Project developed by Lesly Salas (https://github.com/lessalcu).
