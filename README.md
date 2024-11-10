@@ -8,9 +8,9 @@ The basic structure of the project is as follows:
 
 javaLS/
 │
-├── HelloWorld.java # Main Java application code
-├── Dockerfile # Dockerfile to build the container image
-└── README.md # Project documentation
+├── HelloWorld.java # Main Java application code.
+├── Dockerfile # Dockerfile to build the container image.
+└── README.md # Project documentation.
 
 ### Requirements
 
@@ -40,7 +40,7 @@ You should see the message "Hello World from Java, Lesly Salas SI08!" in the con
 ### Docker Hub Launch Manual
 
 #### 1. Download the Image
-To download the image from Docker Hub, run:
+##### To download the image from Docker Hub, run:
 
 ```bash
 docker pull lssalas/javals:latest
