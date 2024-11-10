@@ -1,15 +1,12 @@
 # javaLS
 
-**javaLS** is a simple Java application that prints the message **"Hello World from Java, Lesly Salas SI08!"** to the console. This project is dockerized to facilitate its deployment and execution in any environment.
+**javaLS** is a simple Java application that prints the message **"Hello World from Java, Lesly Salas SI08!"** to the console. This project is dockerized to make it easy to deploy and run in any environment.
 
 ## Project Structure
 
 The basic structure of the project is as follows:
 
-javaLS/ │ ├── Dockerfile # Dockerfile to create the container image ├── HelloWorld.java # Main Java application code └── README.md # Project documentation
-
-markdown
-Copiar código
+javaLS/ │ ├── HelloWorld.java # Main Java application code ├── Dockerfile # Dockerfile to build the container image └── README.md # Project documentation
 
 ### Requirements
 
@@ -32,23 +29,20 @@ cd javaLS
 Compile and run the Java program:
 
 bash
-Copiar código
 javac HelloWorld.java
 java HelloWorld
 You should see the message "Hello World from Java, Lesly Salas SI08!" in the console.
 
-Docker Launch Manual
+Docker Hub Launch Manual
 1. Download the Image
 To download the image from Docker Hub, run:
 
 bash
-Copiar código
 docker pull lssalas/javals:latest
 2. Run the Container
-Once the image is downloaded, run the container with the following command:
+Once the image is downloaded, run the container:
 
 bash
-Copiar código
 docker run lssalas/javals:latest
 This will start the container with the Java program, and you should see the message in the console.
 
