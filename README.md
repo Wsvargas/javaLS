@@ -6,12 +6,14 @@
 
 The basic structure of the project is as follows:
 
+```
 javaLS/
 │
 ├── HelloWorld.java # Main Java application code.
 ├── Dockerfile # Dockerfile to build the container image.
 └── README.md # Project documentation.
 
+```
 ### Requirements
 
 To run this project locally or inside a Docker container, you need to have the following:
@@ -51,8 +53,9 @@ docker pull lssalas/javals:latest
 
 ```bash
 docker run lssalas/javals:latest
-This will start the container with the Java program, and you should see the message in the console.
 ```
+This will start the container with the Java program, and you should see the message in the console.
+
 ## Notes
 Make sure Docker is running.
 If you have problems running the container, check that Docker is correctly installed and configured on your system.
