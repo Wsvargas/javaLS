@@ -6,7 +6,11 @@
 
 The basic structure of the project is as follows:
 
-javaLS/ │ ├── HelloWorld.java # Main Java application code ├── Dockerfile # Dockerfile to build the container image └── README.md # Project documentation
+javaLS/
+│
+├── HelloWorld.java # Main Java application code
+├── Dockerfile # Dockerfile to build the container image
+└── README.md # Project documentation
 
 ### Requirements
 
@@ -34,16 +38,18 @@ java HelloWorld
 You should see the message "Hello World from Java, Lesly Salas SI08!" in the console.
 ```
 ### Docker Hub Launch Manual
-```bash
-1. Download the Image
+
+#### 1. Download the Image
 To download the image from Docker Hub, run:
 
-bash
+```bash
 docker pull lssalas/javals:latest
-2. Run the Container
-Once the image is downloaded, run the container:
+```
 
-bash
+### 2. Run the Container
+#### Once the image is downloaded, run the container:
+
+```bash
 docker run lssalas/javals:latest
 This will start the container with the Java program, and you should see the message in the console.
 ```
