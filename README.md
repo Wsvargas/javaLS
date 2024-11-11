@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # javaLS
 
 **javaLS** is a simple Java application that prints the message **"Hello World from Java, Lesly Salas SI08!"** to the console. This project is dockerized to make it easy to deploy and run in any environment.
@@ -62,3 +63,6 @@ If you have problems running the container, check that Docker is correctly insta
 
 ## Credits
 Project developed by Lesly Salas (https://github.com/lessalcu).
+=======
+# javaLS
+>>>>>>> 28db2e4f987515b2d4d98a6ab884930169a97105
